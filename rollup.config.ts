@@ -9,7 +9,7 @@ const pkg = require('./package.json')
 export default {
   input: `src/main.ts`,
   output: [
-    { file: pkg.main, name: 'RTCUtils', format: 'umd', sourcemap: true },
+    { file: pkg.main, name: 'WebRTCUtils', format: 'umd', sourcemap: true },
     { file: pkg.module, format: 'es', sourcemap: true },
   ],
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')

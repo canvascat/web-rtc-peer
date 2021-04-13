@@ -1,10 +1,10 @@
 {
-  "name": "web-rtc-peer",
+  "name": "web-rtc-utils",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "dist/web-rtc-peer.umd.js",
-  "module": "dist/web-rtc-peer.es5.js",
+  "description": "web rtc utils",
+  "keywords": ["WebRTC", "RTCPeerConnection"],
+  "main": "dist/web-rtc-utils.umd.js",
+  "module": "dist/web-rtc-utils.es5.js",
   "typings": "dist/types/main.d.ts",
   "files": [
     "dist"
@@ -12,7 +12,7 @@
   "author": "canvascat <canvascat@qq.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/canvascat/web-rtc-peer.git"
+    "url": "https://github.com/canvascat/web-rtc-utils.git"
   },
   "license": "MIT",
   "engines": {
